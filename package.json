@@ -1,0 +1,24 @@
+{
+  "name": "learnimageprocessing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "opencv4nodejs": "^5.6.0"
+  },
+  "postinstall": "if [ ! -f node_modules/opencv4nodejs/build/Release/opencv4nodejs.node ]; then cd node_modules/opencv4nodejs/build; make; fi",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zuluoaaa/learnImageProcessing.git"
+  },
+  "author": "zuluoaaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zuluoaaa/learnImageProcessing/issues"
+  },
+  "homepage": "https://github.com/zuluoaaa/learnImageProcessing#readme"
+}
