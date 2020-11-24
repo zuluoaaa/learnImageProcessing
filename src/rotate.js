@@ -1,8 +1,8 @@
 
 
-function rotate90(imgVer) {
+function rotate(imgVer,angle) {
     let dist = [];
-    let angle = 180;
+
 
     let ih = imgVer.length;
     let iw = imgVer[0].length;
@@ -57,8 +57,8 @@ function verMul(a,b){
     return [(r1),(r2),(r3)];
 }
 
-console.log(rotate90([
+console.log(rotate([
     [1,2,3],
     [4,5,6],
     [7,8,9],
-],90))
+],180))
